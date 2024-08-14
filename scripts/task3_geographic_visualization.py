@@ -17,7 +17,7 @@ gdf.plot(column='POP_EST', cmap='OrRd', linewidth=0.8, ax=ax, edgecolor='0.8', l
 ax.set_title('World Population by Country', fontsize=16)
 ax.set_axis_off()  # Turn off the axis
 
-# Save the map
+# Save the map inside plots folder
 plt.savefig('../plots/geographic_data_plot.png')
 plt.close()
 
